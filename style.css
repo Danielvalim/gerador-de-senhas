@@ -110,6 +110,8 @@ body {
     font-size: 24px;
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
+    border-radius: 8px;
+
 }
 
 .parametro-senha__botao:hover {
@@ -123,17 +125,17 @@ body {
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 
 label {
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
 .checkbox {
-    width: 20px;
+    width: 18px;
     height: 20px;
     cursor: pointer;
 }
@@ -187,4 +189,9 @@ label {
         flex-direction: row;
         gap: 20px;
     }
+}
+
+/* Quando o mouse passar por cima do botão... */
+.parametro-senha__botao:hover {
+    background-color: var(--branco)
 }
